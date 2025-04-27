@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+databases
+asyncpg
+psycopg2-binary
+jinja2
+python-multipart
