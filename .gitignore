@@ -6,6 +6,7 @@ __pycache__/
 *.pyd
 .Python
 env/
+.env
 build/
 dist/
 *.egg-info/
@@ -42,3 +43,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+
+# database
+db-data/

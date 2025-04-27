@@ -30,4 +30,4 @@ def delete_todo(db: Session, todo_id: int):
     if db_todo:
         db.delete(db_todo)
         db.commit()
-        return db_todo
+    return db_todo

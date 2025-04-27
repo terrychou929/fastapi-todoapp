@@ -61,7 +61,7 @@
                             {% if todo.completed %}Mark Incomplete{% else %}Mark Complete{% endif %}
                         </button>
                     </form>
-                    <form method="post" action="/todos/{{ todo.id }}/delete" style="display:inline;">
+                    <form method="post" action="/todos/delete/{{ todo.id }}" style="display:inline;">
                         <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
                     </form>
                 </td>
